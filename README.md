@@ -1,2 +1,2 @@
 # OpenBootcamp
-Mis ejercicios del curso en OpenBootcamp
+Mis ejercicios del curso en OpenBootcamp de HTML y CSS
