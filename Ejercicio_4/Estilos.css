@@ -1,0 +1,10 @@
+#background{
+    background-color: rgb(209, 243, 243);
+    background-size: 1000px 1000px;
+    padding: 10px 20px;
+    border-radius: 1%;
+}
+#elemento-1 {
+    color: red;
+    font-size: 2rem;
+}
