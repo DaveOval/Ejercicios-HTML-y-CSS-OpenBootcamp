@@ -1,0 +1,7 @@
+div{
+    background-color: blue;
+    border: 1px;
+    flex: wrap;
+    justify-content: space-around;
+    align-items:center;
+}
