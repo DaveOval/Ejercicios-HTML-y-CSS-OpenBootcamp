@@ -1,0 +1,164 @@
+
+*{
+    margin: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html{
+    background-color: #161717;
+    
+}
+
+#page{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+#page-image{
+    height: 100vh;
+    width: 27%;
+    background-color: #F3D185;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #876119;
+}
+#header{
+    padding: 64px 64px 30px 64px;
+}
+#page-image h1{
+    display: flex;
+    font-weight: 700;
+    font-size: 32px;
+}
+#page p{
+    padding: 25px 64px 35px 64px;
+}
+#page a{
+    color: #876119;
+}
+#formulario{
+    width: 73%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#container-formulario{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    background-color: #1A73E8;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0,25px;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    border-radius: 6px;
+}
+button:hover{
+    background-color: #398dfa;
+}
+.signIn{
+    align-self: flex-end;
+}
+.h1-formulario {
+    display: flex;
+    align-self: flex-start;
+    transform: translate(40%);
+}
+.googleSign{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+.botonGoogle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.botonGoogle img{
+    transform: translate(-130%);
+}
+.img-twitter{
+    width: 38px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F2F3F3;
+    border-radius: 10px;
+}
+.img-twitter:hover{
+    background-color: #c5c5c5;
+}
+.hr{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+hr{
+    width: 200px;
+}
+input{
+    border: none;
+    border-radius: 10px;
+    background-color: #212121;
+    padding: 10px;
+    outline: none;
+    color: white;
+}
+input:hover{
+    background-color: #454045;
+}
+input:focus{
+    background-color: #454045;
+}
+
+.primer-input{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.name{
+    display: flex;
+    flex-direction: column;
+}
+.Username {
+    display: flex;
+    flex-direction: column;
+}
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 360px
+}
+.password {
+    display: flex;
+    flex-direction: column;
+    width: 360px
+}
+.terms{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#create{
+    background-color: #EA4D88;
+    justify-self: start;
+}
