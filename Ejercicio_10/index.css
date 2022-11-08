@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    
+}
+.barra{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-self: left;
+    gap: 10px;
+}
+.seccion-principal{
+    background-color: aquamarine;
+    display: flex;
+    flex-grow: 1;
+    height: 100vh;
+}
+@media ( max-width: 640px){
+    .main{
+        flex-direction: column;
+        height: auto;
+    }
+    .barra{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
